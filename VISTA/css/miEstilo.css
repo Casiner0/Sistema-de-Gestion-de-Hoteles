@@ -1,0 +1,106 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body{
+    /*Esta configuración es para tener un fondo estático*/
+    background-image:url(../img/bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo{
+    background: rgba(255,255,255,.8);
+    box-shadow: 0 10px 15px rgba(0,0,0,.6);
+    border-radius: 5px;
+    padding-right: 1px;
+    padding-left: 1px
+}
+
+.pocision-fondo{
+    padding: 15px 15px 25px 15px;
+    /*padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;*/
+}
+
+.alerta_login{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);   
+    background-color: #fd5d5d;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.logo img{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 100px;
+}
+ .cabecera {
+    margin: 0 0 2% 0;
+    text-align: right;
+    color: white; 
+    font-size: 16px; 
+}
+
+navbar-header{
+    background-color: transparent;
+}
+
+.avatar img {
+    width: 60px;
+}
+
+a .btn {
+    text-decoration: none;
+    
+}
+
+/* Esto es para k el link no cambie de color, ni subraye*/
+p a, p a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-usuario {
+    border: 1px solid #333333;
+    margin: 0 0 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pie {
+    margin: 2% 0;
+    padding: 1%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+        
+    .logo img{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        width: 400px;
+        height: 100px;
+            
+    }
+
+    body{
+    background-image:url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+    .slogan {
+        display: none;
+    }
+
+}
